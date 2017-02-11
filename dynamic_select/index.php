@@ -3,6 +3,8 @@ include 'config.php';
 ?>
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
+
 <script>
 
 function branch(){
@@ -30,7 +32,11 @@ var xmlhttp = new XMLHttpRequest();
 </script>
 </head>
 <body>
-<p><b>BRANCH</b></p>
+<div id="zero">
+<h1>DYNAMIC SELECT</h1>
+</div>
+<div id="first">
+<h2>BRANCH</h2>
 <select id="branch" onChange="branch()">
 <option>select</option>
 <?php
@@ -49,10 +55,10 @@ while ($row = mysql_fetch_array($a))
 
 </select>
 
+</div>
 
-
-
-<p><b>SUBJECT</b></p>
+<div id="second">
+<h2>SUBJECT</h2>
 <div id="subject">
 <select>
 
@@ -67,10 +73,10 @@ while ($row = mysql_fetch_array($a))
 </div>
 
 
+</div>
 
-
-
-<p><b>SEMESTER</b></p>
+<div id="third">
+<h2>SEMESTER</h2>
 <div id="sem">
 <select>
 
@@ -86,7 +92,7 @@ while ($row = mysql_fetch_array($a))
 
 
 
-
+</div>
 
 
 

@@ -1,0 +1,42 @@
+body {	background: #6495ED
+}
+
+h2{
+	font-family: cursive;
+}
+
+select{
+	font-family: cursive;
+	width: 50%;
+}
+
+#first{
+	background: #FFD700;
+	margin-right: 30%;
+	margin-left: 20%;
+	padding: 20px 50px 50px 250px;
+	border-radius: 20px;
+	
+}
+#second{
+	background: #FFE4B5;
+	margin-right: 30%;
+	margin-left: 20%;
+	margin-top: 20px;
+	padding: 20px 50px 50px 250px;
+	border-radius: 20px;
+}
+
+#third {
+	background: #9ACD32;
+	margin-right: 30%;
+	margin-left: 20%;
+	margin-top: 20px;
+	padding: 20px 50px 50px 250px;
+	border-radius: 20px;
+	
+}
+#zero {
+	margin-left: 33%;
+	font-family: cursive;
+}
