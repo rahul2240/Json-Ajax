@@ -1,21 +1,21 @@
 var subject = {
-	"select": ["nil"],
-		"IT": ["MATH","PHY","CHEM"],
-		"CS": ["BIO","C","PHY-2"],
-		"ME": ["THERMO","MECH"]
+	"Select": ["Select"],
+		"IT": ["Select","MATH","PHY","CHEM"],
+		"CS": ["Select","BIO","C","PHY-2"],
+		"ME": ["Select","THERMO","MECH"]
 };
 
 var semester = {
 	
-	"nil":"nil",
+	"Select":["Select"],
 	"MATH":["1","2","3"],
-	"PHY":"2",
-	"CHEM":"3",
-	"BIO":"2",
-	"C":"1",
-	"PHY-2":"3",
-	"THERMO":"4",
-	"MECH":"3"
+	"PHY":["2"],
+	"CHEM":["3"],
+	"BIO":["2"],
+	"C":["1"],
+	"PHY-2":["3"],
+	"THERMO":["4"],
+	"MECH":["3"]
 		
 	
 };
