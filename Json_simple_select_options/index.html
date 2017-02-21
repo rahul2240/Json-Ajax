@@ -4,15 +4,24 @@
 <script src="json.js"></script>
 </head>
 <body>
-<select id="select" onchange="selectedvalue(this.value)">
+<select id="select" onchange="selectsubject(this.value)">
 
 <option value="select">Select</option>
-<option value="num">1</option>
-<option value="A">A</option>
+<option value="CS">CS</option>
+<option value="IT">IT</option>
+<option value="ME">ME</option>
 
 
 </select>
-<p id="demo">no</p>
+<select id="subjects" onchange="selectsemester(this.value)">
+
+</select>
+
+<select id="semester">
+
+</select>
+
+
 <script src="json.js"></script>
 </body>
 </html>

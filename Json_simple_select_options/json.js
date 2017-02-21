@@ -1,12 +1,15 @@
-var content = {
-	"select": ["nil"] ,
-		"num": ["1","2","3"],
-			"A": ["A","B","C","D"]
+var subject = {
+	"select": ["nil"],
+		"IT": ["MATH","PHY","CHEM"],
+		"CS": ["BIO","C","MATHS-2","PHY-2"],
+		"ME": ["THERMO","MECH"]
 };
 
-function selectedvalue(val)
+function selectsubject(val)
 { 
-var demos = document.getElementById("demo");
-
-demos.innerHTML = content[val];
+	optionret="";
+	for(var x=0; x<subject[val].length; x++){
+		optionret += "<option value=" + subject[val][x]+">" + subject[val][x] + "</option>";
+	}
+    document.getElementById("subjects").innerHTML = optionret;
 }
