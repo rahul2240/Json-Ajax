@@ -1,0 +1,67 @@
+.navbar{
+	color: white;
+	font-family: cursive;
+	background-color: teal;
+	
+	
+}
+.navbar a{
+		
+		text-decoration: none;
+		color: white;
+		
+}
+.navbar a:hover { 
+    background-color: darkslategray;
+}
+.navbar li a:hover { 
+    background-color: darkslategray;
+}
+
+.form-horizontal{
+	margin-left: 50%;
+	margin-top: 12%;
+	margin-bottom: 2%;
+	padding: 20px;
+	margin-right: 2%;
+	font-family: cursive;
+	color: white;
+}
+.control-label{
+	padding: 20px;
+	
+}
+.form-control {
+	width: 60%;
+	
+}
+.col-sm-2 {
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+}
+footer{
+	
+	font-family: cursive;
+	background-color: teal;
+    position: fixed;
+	padding: 20px;
+	
+}
+
+
+#logo {
+	font-size: 30px;
+	margin-left:10px;
+	margin-right: 790px;
+}
+	
+body{
+	
+	background: url("pithu.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.content{
+	padding-top: 60px;
+}
